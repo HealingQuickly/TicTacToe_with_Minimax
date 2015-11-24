@@ -152,6 +152,7 @@ int Board::checkVictory() const {
 	}
 
 	// Check for tie game
+
 	for (int i = 0; i < _board.size(); i++) {
 		if (_board[i] == NO_VAL) return NO_VAL;
 	}
